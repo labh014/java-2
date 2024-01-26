@@ -42,11 +42,11 @@ public class Quick {
         int arr[] = { 1, 5, 8, 3, 6, 9, 4 };
         int n = arr.length;
 
-        System.out.println("Array before sorting ");
+        System.out.println("Array before sorting is ");
         printarr(arr, n);
 
         quicksort(arr, 0, n - 1);
-        System.out.println("Array after sorting ");
+        System.out.println("Array after sorting is ");
         printarr(arr, n);
     }
 }
