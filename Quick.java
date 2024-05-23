@@ -1,5 +1,3 @@
-import java.util.*;
-import java.io.*;
 
 public class Quick {
     public static int partition(int arr[], int l, int h) {
@@ -46,7 +44,7 @@ public class Quick {
         printarr(arr, n);
 
         quicksort(arr, 0, n - 1);
-        System.out.println("Array after sorting is ");
+        System.out.println("Array after sorting  ");
         printarr(arr, n);
     }
 }
